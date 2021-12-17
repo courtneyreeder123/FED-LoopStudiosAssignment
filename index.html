@@ -9,15 +9,64 @@
   <title>Frontend Mentor | Loopstudios landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!--desktop media query and styling flex box-->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-    @media only screen and (min-width: 401 )
-    .flex{display: flex;
+    @media only screen and (min-width: 401 ){
+    .flex {display: flex;
         justify-content: space-around;
-      justify-direction: column;
+        flex-direction: column;
 
       }
+      .flex image-creations{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+      }}
+  </style>
+<!--mobile viewport break point media query and styling flex box-->
+  <style>
+@media only screen and (max-width: 400px) {
+  body {
+  }
+  .flex-container {
+  display: flex;
+flex-direction: column
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+#container-footer{
+  background-color: black;
+  a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: grey;
+}
+
+/* selected link */
+a:active {
+  color: darkgray;
+}}
+
   </style>
 </head>
 
@@ -45,7 +94,7 @@
 <button>  
   See all
 </button>
-
+<div id="flex-images">
   <a href="" img src="images/mobile/image-deep-earth.jpg" alt="Earth in space">Deep earth</a>
   <a href="" img src="images/mobile/image-night-arcade.jpg" alt="Night lit arcade">Night arcade</a>
   <a href="" img src="images/mobile/image-soccer-team.jpg" alt="Soccer player">Soccer team VR</a>
@@ -54,15 +103,16 @@
   <a href="" img src="images/mobile/image-pocket-borealis.jpg" alt="Borealis">Pocket borealis</a>
   <a href="" img src="images/mobile/image-curiosity.jpg" alt="Space Exploration Robot">The curiosity</a>
   <a href="" img src="image/mobile/image-fisheye.jpg" alt="Fish eye">Make it fisheye</a>
-<footer>
+</div>
+<div id="nav footer"><footer>
   <nav>
   <a href="">About</a>
   <a href="">Careers</a>
   <a href="">Events</a>
   <a href="">Products</a>
   <a href="">Support</a>
-</nav>
-<nav>
+</nav></div>
+<div id="nav footer 2"></div><nav>
   <a href="https://wwww.facebook.com"><img src="images/icon-facebook.svg" alt="Facebook square letter f icon link"</a>
   <a href="https://twitter.com"><img src="images/icon-twitter.svg" alt="Twitter flying bird profile icon link"></a>
   <a href="https://www.pinterest.com"><img src="images/icon-pinterest.svg" alt="Pinterest icon link"></a>
