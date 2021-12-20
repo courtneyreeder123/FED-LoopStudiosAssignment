@@ -94,9 +94,10 @@ button{
     text-align: center;
     line-height: 75px;
     font-size: 30px;
-  }
-  #container-footer{
+  }*/
+  #nav-footer{
     background-color: black;
+    color:white;
   }
- */
+ 
 }
