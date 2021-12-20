@@ -1,0 +1,109 @@
+ 
+/*@media only screen and (max-width: 400px) {
+  
+    .flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+  }*/
+  /*media query viewport screen break for mobile*/
+  @media only screen and (max-width:400px){
+  #image-hero{
+    height:650px;
+    width:375px;
+    position: relative; 
+  }
+  #logo-image{
+    position: absolute;
+    top:25px;
+    left:25px;
+    height:10px;
+  }
+  #hamburger-image{
+      position: absolute;
+      top:30px;
+      left: 175px;
+  }
+  #header-block{
+      position: absolute;
+      top: 200px;
+      Left:18px;
+      color: white;
+      border-color: white;
+      font-family: 'Alata', sans-serif;
+      padding:20px;
+      border-style: solid;
+      border-width: 2px;
+  }
+#interactive-image{ 
+    height:120px;
+    width:327px;
+}
+h2{
+    font-family: 'Alata', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+}
+
+p{
+    font-family:'Alata', sans-serif;
+}
+button{
+    background-color: white;
+    
+}/*
+#flex-images{
+    display:flex;
+    flex-direction:column;
+}*/
+
+
+#container-img {
+    position: relative;
+    max-width: 327px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+
+
+.img-size{
+   height:120px;
+   width:327px;
+
+}
+
+#container-img.content-img-one{
+   position: absolute; /* Position the background text */
+   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+   background: rgb(0, 0, 0); /* Fallback color */
+   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+   color: #f1f1f1; /* Grey text */
+   width: 100%; /* Full width */
+   padding: 20px; /* Some padding */
+
+   }
+
+
+
+ /* #h1{
+    position: absolute;
+    top:200px;
+    left:20px
+    font: white;
+    border: white;
+}
+*/
+/*
+  .flex-container > div {
+  background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  #container-footer{
+    background-color: black;
+  }
+ */
+}
