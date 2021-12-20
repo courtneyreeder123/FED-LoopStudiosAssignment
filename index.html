@@ -24,57 +24,14 @@
         flex-direction: row;
         flex-wrap: wrap;
 
-      }}
-  </style>
-<!--mobile viewport break point media query and styling flex box-->
-  <style>
-@media only screen and (max-width: 400px) {
-  body {
-  }
-  .flex-container {
-  display: flex;
-  flex-direction: column
-  flex-wrap: nowrap;
-  background-color: white;
-}
+      }
+.img-size{
+  width: 150px;
+  height: 150px;
+}    
+    }
 
-.flex-container > div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
-#container-footer{
-  background-color: black;
-  a:link {
-  color: white;
-  }
 
-/* visited link */
-a:visited {
-  color: white;
-}
-
-/* mouse over link */
-a:hover {
-  color: grey;
-}
-
-/* selected link */
-a:active {
-  color: darkgray;
-}
-
-.nav footer{
-background-color: black;
-font: white;
-}
-.nav footer 2{
-  background-color: black;
-  font: white;
-}
   </style>
 </head>
 
@@ -103,25 +60,27 @@ font: white;
   See all
 </button>
 <div id="flex-images">
-  <img src="images/mobile/image-deep-earth.jpg" alt="Planet Earth in space">Deep earth
-  <img src="images/mobile/image-night-arcade.jpg" alt="Arcade lit up at Night">Night arcade
-  <img src="images/mobile/image-soccer-team.jpg" alt="Soccer team player running">Soccer team VR
-  <img src="images/mobile/image-grid.jpg" alt="Vehicle with Mobil 1 Michelin advertising">The grid
-  <img src="images/mobile/image-from-above.jpg" alt="Photo of winding road from above">From up above VR
-  <img src="images/mobile/image-pocket-borealis.jpg" alt="">Pocket borealis
-  <img src="images/mobile/image-curiosity.jpg" alt="space exploration robot">The curiosity
-  <img src="images/mobile/image-fisheye.jpg" alt="fish eye">Make it fisheye
+  <img class="img-size" src="images/mobile/image-deep-earth.jpg" alt="Planet Earth in space">Deep earth
+  <img class="img-size" src="images/mobile/image-night-arcade.jpg" alt="Arcade lit up at Night">Night arcade
+  <img class="img-size" src="images/mobile/image-soccer-team.jpg" alt="Soccer team player running">Soccer team VR
+  <img class="img-size" src="images/mobile/image-grid.jpg" alt="Vehicle with Mobil 1 Michelin advertising">The grid
+  <img class="img-size" src="images/mobile/image-from-above.jpg" alt="Photo of winding road from above">From up above VR
+  <img class="img-size" src="images/mobile/image-pocket-borealis.jpg" alt="">Pocket borealis
+  <img class="img-size" src="images/mobile/image-curiosity.jpg" alt="space exploration robot">The curiosity
+  <img class="img-size"  src="images/mobile/image-fisheye.jpg" alt="fish eye">Make it fisheye
 </div>
-<div id="nav footer"><footer>
+<div id="nav footer">
+  <footer>
   <nav>
   <a href="">About</a>
   <a href="">Careers</a>
   <a href="">Events</a>
   <a href="">Products</a>
   <a href="">Support</a>
-</nav></div>
-<div id="nav footer 2"></div><nav>
-  <a href="https://wwww.facebook.com"><img src="images/icon-facebook.svg" alt="Facebook square letter f icon link"</a>
+</nav>
+</div>
+<div id="nav footer 2"><nav>
+  <a href="https://wwww.facebook.com"><img src="images/icon-facebook.svg" alt="Facebook square letter f icon link"></a>
   <a href="https://twitter.com"><img src="images/icon-twitter.svg" alt="Twitter flying bird profile icon link"></a>
   <a href="https://www.pinterest.com"><img src="images/icon-pinterest.svg" alt="Pinterest icon link"></a>
   <a href="https://www.instagram.com"><img src="images/icon-instagram.svg" alt="Instagram camera icon link"></a>
@@ -129,6 +88,7 @@ font: white;
   <p>
     © 2021 Loopstudios. All rights reserved.
   </p>
+  </div>
 </footer>
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
